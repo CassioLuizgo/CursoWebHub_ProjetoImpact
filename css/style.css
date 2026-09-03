@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Researcher" , sans-serif;
+    src: url(../assets/Font/otf/researcher-researcher-bold-700.otf) format('otf'),
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
