@@ -21,12 +21,17 @@ a {
 
 /*Estilo principal*/
 header {
+    position: absolute; /* Remove o header do fluxo normal e faz ele flutuar sobre a tela */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10; /* Garante que o header fique na camada acima da imagem do Hero */
+    background-color: transparent; /* Torna o fundo do cabeçalho totalmente transparente */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 20px 120px;
-    background-color: #23202D;
 }
 
 .logo {
